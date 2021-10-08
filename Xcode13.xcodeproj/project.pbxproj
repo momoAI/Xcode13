@@ -16,6 +16,7 @@
 		8E3CDA60270466D000A88B39 /* Xcode13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CDA5F270466D000A88B39 /* Xcode13Tests.swift */; };
 		8E3CDA6A270466D000A88B39 /* Xcode13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CDA69270466D000A88B39 /* Xcode13UITests.swift */; };
 		8E3CDA6C270466D000A88B39 /* Xcode13UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CDA6B270466D000A88B39 /* Xcode13UITestsLaunchTests.swift */; };
+		8E4BD07F27101D320069381D /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8E4BD07E27101D320069381D /* Documentation.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8E3CDA65270466D000A88B39 /* Xcode13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xcode13UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3CDA69270466D000A88B39 /* Xcode13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode13UITests.swift; sourceTree = "<group>"; };
 		8E3CDA6B270466D000A88B39 /* Xcode13UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode13UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E4BD07E27101D320069381D /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8E3CDA48270466CC00A88B39 /* AppDelegate.swift */,
 				8E3CDA4A270466CC00A88B39 /* SceneDelegate.swift */,
 				8E3CDA4C270466CC00A88B39 /* ViewController.swift */,
+				8E4BD07E27101D320069381D /* Documentation.docc */,
 				8E3CDA4E270466CC00A88B39 /* Main.storyboard */,
 				8E3CDA51270466D000A88B39 /* Assets.xcassets */,
 				8E3CDA53270466D000A88B39 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				8E3CDA4D270466CC00A88B39 /* ViewController.swift in Sources */,
 				8E3CDA49270466CC00A88B39 /* AppDelegate.swift in Sources */,
 				8E3CDA4B270466CC00A88B39 /* SceneDelegate.swift in Sources */,
+				8E4BD07F27101D320069381D /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
