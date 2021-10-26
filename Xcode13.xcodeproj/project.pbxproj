@@ -17,6 +17,7 @@
 		8E3CDA6A270466D000A88B39 /* Xcode13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CDA69270466D000A88B39 /* Xcode13UITests.swift */; };
 		8E3CDA6C270466D000A88B39 /* Xcode13UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CDA6B270466D000A88B39 /* Xcode13UITestsLaunchTests.swift */; };
 		8E4BD07F27101D320069381D /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8E4BD07E27101D320069381D /* Documentation.docc */; };
+		8E74814F27279CCB00B593FF /* STableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E74814E27279CCB00B593FF /* STableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		8E3CDA69270466D000A88B39 /* Xcode13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode13UITests.swift; sourceTree = "<group>"; };
 		8E3CDA6B270466D000A88B39 /* Xcode13UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode13UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8E4BD07E27101D320069381D /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		8E74814C27279CCB00B593FF /* Xcode13-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xcode13-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E74814D27279CCB00B593FF /* STableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STableViewCell.h; sourceTree = "<group>"; };
+		8E74814E27279CCB00B593FF /* STableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,9 @@
 				8E3CDA51270466D000A88B39 /* Assets.xcassets */,
 				8E3CDA53270466D000A88B39 /* LaunchScreen.storyboard */,
 				8E3CDA56270466D000A88B39 /* Info.plist */,
+				8E74814D27279CCB00B593FF /* STableViewCell.h */,
+				8E74814E27279CCB00B593FF /* STableViewCell.m */,
+				8E74814C27279CCB00B593FF /* Xcode13-Bridging-Header.h */,
 			);
 			path = Xcode13;
 			sourceTree = "<group>";
@@ -198,6 +205,7 @@
 				TargetAttributes = {
 					8E3CDA44270466CC00A88B39 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 					8E3CDA5A270466D000A88B39 = {
 						CreatedOnToolsVersion = 13.0;
@@ -261,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E74814F27279CCB00B593FF /* STableViewCell.m in Sources */,
 				8E3CDA4D270466CC00A88B39 /* ViewController.swift in Sources */,
 				8E3CDA49270466CC00A88B39 /* AppDelegate.swift in Sources */,
 				8E3CDA4B270466CC00A88B39 /* SceneDelegate.swift in Sources */,
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R45LY736NP;
@@ -459,6 +469,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fxr.Xcode13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Xcode13/Xcode13-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R45LY736NP;
@@ -487,6 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fxr.Xcode13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Xcode13/Xcode13-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
